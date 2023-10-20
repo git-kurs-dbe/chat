@@ -6,6 +6,7 @@ if (file_exists($lockFile)) {
     die("Das Skript wird bereits ausgeführt");
 }
 
+// Hallo 2
 // Sperren der Datei für andere Skripte
 $handle = fopen($lockFile, 'w');
 if (!flock($handle, LOCK_EX | LOCK_NB)) {
