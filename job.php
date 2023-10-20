@@ -1,6 +1,7 @@
 <?php
 $lockFile = 'script.lock';
 
+// hallo 
 // Überprüfen, ob das Skript bereits ausgeführt wird
 if (file_exists($lockFile)) {
     die("Das Skript wird bereits ausgeführt");
